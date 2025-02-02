@@ -1,0 +1,43 @@
+git --version
+To check version
+
+git config --global user.email "your_email@example.com"
+To login
+
+git add .
+git clone url
+To clone repository from remote to local
+ 
+git clone url newfoldername
+To clone repository newfolder
+
+git commit -m "message"
+git branch -M main
+
+git push -u origin ＜branchname＞
+git push -u origin main
+To push code
+
+git branch -r
+To list all branches in remote
+
+git branch
+To list all branches in local
+
+git checkout -b ＜new-branch＞
+git checkout -b featureqa
+To create branch
+
+git checkout ＜branchname＞
+To Switch branch
+
+git branch -d <branchname>
+To delete branch
+
+git push origin --delete <branchname>
+To delete remote branch
+
+git log        
+Show commit logs
+====================
+git init
