@@ -1,22 +1,27 @@
+git
+To check git installed
+
 git --version
 To check version
 
+git config --global user.name "Your name here"
 git config --global user.email "your_email@example.com"
 To login
 
-git add .
 git clone url
 To clone repository from remote to local
  
 git clone url newfoldername
 To clone repository newfolder
 
+git add .
+To add all the files
+
+git add <filename>
+To add specific file
+
 git commit -m "message"
 git branch -M main
-
-git push -u origin ＜branchname＞
-git push -u origin main
-To push code
 
 git branch -r
 To list all branches in remote
@@ -37,7 +42,42 @@ To delete branch
 git push origin --delete <branchname>
 To delete remote branch
 
+git push
+To push changes from local to remote repository
+
+git push -f
+To push changes forcefully from local to remote repository
+
+git push -u origin <branchname>
+git push -u origin main
+To push new branch from local to remote repository
+
+git pull
+To pull changes from remote to local repository
+
+git reset <filename>/<commitID>
+To remove files
+Used in single user for repo
+
+git reset --soft <commitID>
+Disregards subsequent commits but keeps the changes they have introduced
+
+git reset --hard <commitID>
+Disregards subsequent commits including the changes they have introduced
+
+git revert <commitID>
+To revert to last commit
+Used in multiple users for repo
+:q to save after revert
+
 git log        
 Show commit logs
 ====================
 git init
+To add new repo in local
+
+git remote add
+To add new repo in remote
+
+git diff sourcebranch targetbranch
+To check difference between branches 
