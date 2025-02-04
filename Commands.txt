@@ -72,7 +72,9 @@ Used in multiple users for repo
 
 git checkout <targetbranch>
 git merge <sourcebranch>
-To merge changes from sourcebranch into targetbranch
+To merge changes from source branch into target branch
+:wq
+To save & quit
 
 git log        
 Show commit logs
