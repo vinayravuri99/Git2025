@@ -98,5 +98,9 @@ To add new repo in local
 git remote add
 To add new repo in remote
 
+git rm <filenamewithpath>
+git commit
+To delete file
+
 git diff sourcebranch targetbranch
 To check difference between branches 
