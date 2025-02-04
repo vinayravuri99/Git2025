@@ -23,11 +23,11 @@ To add specific file
 git commit -m "message"
 git branch -M main
 
-git branch -r
-To list all branches in remote
-
 git branch
 To list all branches in local
+
+git branch -r
+To list all branches in remote
 
 git checkout -b ＜new-branch＞
 git checkout -b featureqa
@@ -76,8 +76,20 @@ To merge changes from source branch into target branch
 :wq
 To save & quit
 
+git status
+To track files
+
+git show <commitID>
+To track changes in commit
+
+git show --name-only <commitID>
+To track changed file names in commit
+
 git log        
 Show commit logs
+
+git reflog
+To check all commits & branches  changes
 ====================
 git init
 To add new repo in local
