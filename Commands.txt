@@ -70,6 +70,10 @@ To revert to last commit
 Used in multiple users for repo
 :q to save after revert
 
+git checkout <targetbranch>
+git merge <sourcebranch>
+To merge changes from sourcebranch into targetbranch
+
 git log        
 Show commit logs
 ====================
