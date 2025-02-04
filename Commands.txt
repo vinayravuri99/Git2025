@@ -100,6 +100,7 @@ To add new repo in remote
 
 git rm <filenamewithpath>
 git commit
+git push
 To delete file
 
 git diff sourcebranch targetbranch
