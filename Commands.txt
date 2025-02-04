@@ -75,6 +75,7 @@ git merge <sourcebranch>
 To merge changes from source branch into target branch
 :wq
 To save & quit
+git push <targetbranch>
 
 git status
 To track files
